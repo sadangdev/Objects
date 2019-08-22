@@ -7,3 +7,4 @@
 1. 각자 사용자 이름으로 폴더를 제작, 코드를 기록한다.
 2. IDE와 Project 형식에 제한을 두지 않는다.
 3. Chapter는 Package로 구분하도록 한다.
+4. master merge를 기본으로 한다.
