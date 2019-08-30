@@ -12,20 +12,14 @@ public class TicketSeller {
 //	}
 	
 	public boolean sellTo(Audience audience) {
-		if (audience.getBag().hasInvitation()) {
-			Ticket ticket = ticketOffice.getTicket();
-			audience.getBag().setTicket(ticket);
+		Long fee = audience.buy(ticketOffice.getTicket());
+		
+		if(fee >= 0) {
+			ticketOffice.plusAmount(fee);
+			return true;
 		} else {
-			Ticket ticket = ticketOffice.getTicket();
-			if(audience.getBag().getAmount() >= ticket.getFee()) {
-				audience.getBag().minusAmount(ticket.getFee());
-				ticketOffice.plusAMount(ticket.getFee());
-				audience.getBag().setTicket(ticket);
-			} else {
-				ticketOffice.setTicket(ticket);
-			}
+			return false;
 		}
 		
-		return audience.getBag().hasTicket();
 	}
 }

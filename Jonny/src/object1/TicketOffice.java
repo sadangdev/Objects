@@ -21,11 +21,11 @@ public class TicketOffice {
 		tickets.add(ticket);
 	}
 	
-	public void minusAMount(Long amount) {
+	public void minusAmount(Long amount) {
 		this.amount -= amount;
 	}
 	
-	public void plusAMount(Long amount) {
+	public void plusAmount(Long amount) {
 		this.amount += amount;
 	}
 }
