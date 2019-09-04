@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="172.0">com.catsbi.example.chapter02.AmountDiscountPolicy</node>
+    <node x="649.0" y="621.0">com.catsbi.example.chapter02.Reservation</node>
+    <node x="293.0" y="440.0">com.catsbi.example.chapter02.SequenceCondition</node>
+    <node x="533.0" y="417.0">com.catsbi.example.chapter02.PeriodCondition</node>
+    <node x="0.0" y="621.0">com.catsbi.example.chapter02.Screening</node>
+    <node x="0.0" y="881.0">com.catsbi.example.chapter02.Customer</node>
+    <node x="356.0" y="172.0">com.catsbi.example.chapter02.PercentDiscountPolicy</node>
+    <node x="296.0" y="621.0">com.catsbi.example.chapter02.Movie</node>
+    <node x="0.0" y="316.0">com.catsbi.example.chapter02.Money</node>
+    <node x="201.5" y="0.0">com.catsbi.example.chapter02.DiscountPolicy</node>
+    <node x="440.5" y="316.0">com.catsbi.example.chapter02.DiscountCondition</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.catsbi.example.chapter02.PeriodCondition" target="com.catsbi.example.chapter02.DiscountCondition">
+      <point x="0.0" y="-72.5" />
+      <point x="698.0" y="392.0" />
+      <point x="605.5" y="392.0" />
+      <point x="55.0" y="25.5" />
+    </edge>
+    <edge source="com.catsbi.example.chapter02.PercentDiscountPolicy" target="com.catsbi.example.chapter02.DiscountPolicy">
+      <point x="0.0" y="-49.5" />
+      <point x="522.0" y="147.0" />
+      <point x="416.75" y="147.0" />
+      <point x="71.75" y="61.0" />
+    </edge>
+    <edge source="com.catsbi.example.chapter02.AmountDiscountPolicy" target="com.catsbi.example.chapter02.DiscountPolicy">
+      <point x="0.0" y="-49.5" />
+      <point x="168.0" y="147.0" />
+      <point x="273.25" y="147.0" />
+      <point x="-71.75" y="61.0" />
+    </edge>
+    <edge source="com.catsbi.example.chapter02.SequenceCondition" target="com.catsbi.example.chapter02.DiscountCondition">
+      <point x="0.0" y="-49.5" />
+      <point x="403.0" y="392.0" />
+      <point x="495.5" y="392.0" />
+      <point x="-55.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="931.1428571428571" y="553.2857142857142" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
