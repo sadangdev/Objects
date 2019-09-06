@@ -54,12 +54,14 @@ public class Main {
 		screening.setSequence(1);
 		screening.setWhenScreened(LocalDateTime.of(2019, 9, 2, 11, 0));
 		
-		ReservationAgency ra = new ReservationAgency();
+		ReservationAgency reservationAgency = new ReservationAgency();
 		
 		Customer customer1 = new Customer("손님1", "customer1");
 		
-		System.out.println(ra.reserve(screening, customer1, 1));
-		System.out.println(ra.reserve(screening, customer1, 1).getFee());
+		Reservation reservation = reservationAgency.reserve(screening, customer1, 1);
+		
+		System.out.println(reservation);
+		System.out.println(reservation.getFee());
 		
 //		System.out.println(titanic.toString());
 //		System.out.println(starwars.toString());
