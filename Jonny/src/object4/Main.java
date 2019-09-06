@@ -49,10 +49,7 @@ public class Main {
 		
 		System.out.println(avatar.toString());
 		
-		Screening screening = new Screening();
-		screening.setMovie(avatar);
-		screening.setSequence(1);
-		screening.setWhenScreened(LocalDateTime.of(2019, 9, 2, 11, 0));
+		Screening screening = new Screening(avatar, 1, LocalDateTime.of(2019, 9, 2, 11, 0));
 		
 		ReservationAgency reservationAgency = new ReservationAgency();
 		
