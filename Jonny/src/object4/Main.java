@@ -60,8 +60,6 @@ public class Main {
 		System.out.println(reservation);
 		System.out.println(reservation.getFee());
 		
-//		System.out.println(titanic.toString());
-//		System.out.println(starwars.toString());
 	}
 
 }
