@@ -10,7 +10,7 @@
 
 ## 데이터를 준비하자
 
-* Q. Movie를 구현하는 데 필요한 데이터는?
+* Q. Movie를 구현하는 데 필요한 데이터는? (우클릭 - 새 탭으로 링크 열기 해서 보시는게 편합니다)
     * [Movie.java](https://github.com/sadangdev/Objects/commit/96ffa51c62ae1c6ed5a1cdc070391eeeca941b9d#diff-79f437f91bdfd34485d06cb2b5fcc132)
 
     * [MovieType.java](https://github.com/sadangdev/Objects/commit/96ffa51c62ae1c6ed5a1cdc070391eeeca941b9d#diff-fa7182e2b3e87d3e8082750085bbe8c0)
